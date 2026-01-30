@@ -1,8 +1,6 @@
 import pandas as pd
 from analyzer.analysis import (
-    total_spend_per_user,
-    monthly_spend,
-    category_wise_spend)
+    monthly_spend)
 
 def sample_df():
     return pd.DataFrame({
